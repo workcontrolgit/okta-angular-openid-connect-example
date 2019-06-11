@@ -7,7 +7,7 @@ import { OAuthService, JwksValidationHandler } from 'angular-oauth2-oidc';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular Okta Demo';
+  title = 'HR IPMS SSO';
 
   constructor(private oauthService: OAuthService) {
     this.oauthService.redirectUri = window.location.origin;
